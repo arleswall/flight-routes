@@ -4,16 +4,17 @@ function Europe(){
     return(
         <div>
             <h3>Europe</h3>
-                <table>
+                  <table>
+                    <tbody>
                       <tr>
-                            <th>From</th>
-                            <th>Destination</th> 
-                            <th>Duration</th>
-                            <th>First Class</th>
-                            <th>Business</th> 
-                            <th>Coach</th>
+                        <th>From</th>
+                        <th>To</th> 
+                        <th>Duration</th>
+                        <th>F</th>
+                        <th>C</th> 
+                        <th>Y</th>
                       </tr>
-                     <tr>
+                       <tr>
                          <td>London</td>
                          <td>EWR</td>
                          <td>8h30m</td>
@@ -21,7 +22,7 @@ function Europe(){
                          <td>$315</td>
                          <td>$250</td>
                     </tr>
-                    <tr>
+                     <tr>
                         <td></td>
                         <td>IAD</td>
                         <td>8h45m</td>
@@ -61,7 +62,9 @@ function Europe(){
                        <td>$357</td>
                        <td>$250</td>
                  </tr>
-                 <hr/>
+                 <tr>
+                    <td>---</td>
+                 </tr>
                  <tr>
                      <td>Dublin</td>
                      <td>EWR</td>
@@ -70,7 +73,9 @@ function Europe(){
                      <td>$158</td>
                      <td>$98</td>
                 </tr>
-                <hr/>
+                <tr>
+                   <td>---</td>
+                </tr>
                 <tr>
                     <td>Lisbon</td>
                     <td>EWR</td>
@@ -79,7 +84,9 @@ function Europe(){
                     <td>$184</td>
                     <td>$119</td>
                </tr>
-               <hr/>
+               <tr>
+                  <td>---</td>
+               </tr>
                <tr>
                    <td>Madrid</td>
                    <td>EWR</td>
@@ -88,7 +95,9 @@ function Europe(){
                    <td>$182</td>
                    <td>$117</td>
               </tr>
-              <hr/>
+              <tr>
+                 <td>---</td>
+              </tr>
               <tr>
                   <td>Barcelona</td>
                   <td>EWR</td>
@@ -97,7 +106,9 @@ function Europe(){
                   <td>$177</td>
                   <td>$112</td>
              </tr>                   
-              <hr/>
+             <tr>
+                <td>---</td>
+             </tr>
               <tr>
                   <td>Paris</td>
                   <td>IAD</td>
@@ -121,7 +132,7 @@ function Europe(){
                   <td>$297</td>
                   <td>$267</td>
                   <td>$150</td>
-             </tr>                   
+              </tr>                   
               <tr>
                   <td></td>
                   <td>SFO</td>
@@ -129,8 +140,10 @@ function Europe(){
                   <td></td>
                   <td>$307</td>
                   <td>$150</td>
-             </tr> 
-             <hr/>                 
+              </tr>
+              <tr>
+                    <td>---</td>
+              </tr>  
               <tr>
                   <td>Brussels</td>
                   <td>IAD</td>
@@ -155,7 +168,9 @@ function Europe(){
                   <td>$186</td>
                   <td>$119</td>
              </tr> 
-             <hr/>                  
+             <tr>
+                <td>---</td>
+             </tr>               
               <tr>
                   <td>Amsterdam</td>
                   <td>EWR</td>
@@ -188,7 +203,9 @@ function Europe(){
                   <td>$219</td>
                   <td>$112</td>
                  </tr> 
-                 <hr/>                 
+                 <tr>
+                    <td>---</td>
+                 </tr>              
                   <tr>
                       <td>Frankfurt</td>
                       <td>IAD</td>
@@ -229,7 +246,9 @@ function Europe(){
                      <td>$295</td>
                      <td>$188</td>
                  </tr>
-                 <hr/>                  
+                 <tr>
+                    <td>---</td>
+                 </tr>               
                  <tr>
                      <td>Munich</td>
                      <td>IAD</td>
@@ -253,7 +272,82 @@ function Europe(){
                      <td>$270</td>
                      <td>$240</td>
                      <td>$173</td>
-                 </tr>                   
+                  </tr>
+                  <tr>
+                    <td>---</td>
+                  </tr>               
+                   <tr>
+                       <td>Edinburgh</td>
+                       <td>EWR</td>
+                       <td>7h55m</td>
+                       <td></td>
+                       <td>$275</td>
+                       <td>$210</td>
+                   </tr> 
+                  <tr>
+                    <td>---</td>
+                  </tr>               
+                   <tr>
+                       <td>Zurich</td>
+                       <td>EWR</td>
+                       <td>9h25m</td>
+                       <td></td>
+                       <td>$186</td>
+                       <td>$121</td>
+                   </tr> 
+                   <tr>
+                       <td></td>
+                       <td>IAD</td>
+                       <td>9h40m</td>
+                       <td></td>
+                       <td>$188</td>
+                       <td>$121</td>
+                   </tr>
+                   <tr>
+                     <td>---</td>
+                   </tr>               
+                    <tr>
+                        <td>Geneza</td>
+                        <td>EWR</td>
+                        <td>9h20m</td>
+                        <td></td>
+                        <td>$177</td>
+                        <td>$112</td>
+                    </tr> 
+                   <tr>
+                     <td>---</td>
+                   </tr>               
+                    <tr>
+                        <td>Milan</td>
+                        <td>EWR</td>
+                        <td>9h50m</td>
+                        <td></td>
+                        <td>$185</td>
+                        <td>$120</td>
+                    </tr> 
+                   <tr>
+                     <td>---</td>
+                   </tr>               
+                    <tr>
+                        <td>Rome</td>
+                        <td>EWR</td>
+                        <td>10h05m</td>
+                        <td></td>
+                        <td>$204</td>
+                        <td>$137</td>
+                    </tr> 
+                   <tr>
+                     <td>---</td>
+                   </tr>               
+                    <tr>
+                        <td>Manchester</td>
+                        <td>EWR</td>
+                        <td>8h20m</td>
+                        <td></td>
+                        <td>$272</td>
+                        <td>$207</td>
+                    </tr> 
+               </tbody>                   
             </table>
         </div>
     )
