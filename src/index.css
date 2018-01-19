@@ -1,0 +1,69 @@
+.app-wrapper{
+    text-align: center;
+    background: url("background.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+}
+
+.homeBox{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100vh;
+}
+.homeButtonsBox{
+    border: solid #27586F 4px;
+    background-color: rgba(255,255,255, 0.2);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.homeButtonsBox:hover{
+    background-color: rgba(255,255,255, 0.6);
+    font-size: 1.1em;
+    border: solid #27586F 3px;
+}
+.homeButtons{
+    font-size: 2.5em;
+    font-family: helvetica;
+    color: #3D7188;
+    text-decoration: none;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.title{
+    padding-top: 3%;
+    font-family: helvetica;
+}
+
+table { 
+    margin: auto;
+    padding-bottom: 250px;
+    line-height: 1.3;
+ }
+
+.tableBox{
+    text-align: left;
+    font-family: helvetica;
+}
+
+.location{
+    font-size: 1.1em;
+    text-decoration: underline;
+}
+
+.priceHeader{
+    text-align: center;
+    padding-left: 3%;
+}
+
+.price{
+    text-align: right;
+    font-size: 1.1em;
+    padding-left: 5px;
+}

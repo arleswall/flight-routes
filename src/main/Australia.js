@@ -2,63 +2,69 @@ import React from "react";
 
 function Australia(){
     return(
-        <div>
-            <h3>Australia</h3>
-                  <table>
+        <div className="tableDiv">
+            <h3 className="title">Australia</h3>
+                  <table className="tableBox">
                     <tbody>
                       <tr>
-                        <th>From</th>
-                        <th>To</th> 
-                        <th>Duration</th>
-                        <th>F</th>
-                        <th>C</th> 
-                        <th>Y</th>
+                        <th>From/To</th> 
+                        <th className="priceHeader"><i className="fa fa-clock-o" aria-hidden="true"></i></th>
+                        <th className="priceHeader">F</th>
+                        <th className="priceHeader">C</th> 
+                        <th className="priceHeader">Y</th>
+                      </tr>
+                      <tr>
+                         <td>&nbsp;</td>
                       </tr>
                        <tr>
-                         <td>Sydney</td>
+                         <td className="location">Sydney</td>
+                      </tr>
+                       <tr>
                          <td>SFO</td>
                          <td>13h35m</td>
-                         <td></td>
-                         <td>$310</td>
-                         <td>$158</td>
+                         <td className="price"></td>
+                         <td className="price">$310</td>
+                         <td className="price">$158</td>
                     </tr>
                        <tr>
-                         <td></td>
                          <td>LAX</td>
                          <td>13h50m</td>
-                         <td></td>
-                         <td>$310</td>
-                         <td>$158</td>
+                         <td className="price"></td>
+                         <td className="price">$310</td>
+                         <td className="price">$158</td>
                     </tr>
                        <tr>
-                         <td></td>
                          <td>IAH</td>
                          <td>15h40m</td>
-                         <td></td>
-                         <td>$310</td>
-                         <td>$158</td>
+                         <td className="price"></td>
+                         <td className="price">$310</td>
+                         <td className="price">$158</td>
                     </tr>
                     <tr>
-                       <td>---</td>
+                       <td>&nbsp;</td>
                     </tr>
                     <tr>
-                      <td>Melbourne</td>
+                      <td className="location">Melbourne</td>
+                      </tr>
+                      <tr>                      
                       <td>LAX</td>
                       <td>14h15m</td>
-                      <td></td>
-                      <td>$284</td>
-                      <td>$152</td>
+                      <td className="price"></td>
+                      <td className="price">$284</td>
+                      <td className="price">$152</td>
                  </tr>
                     <tr>
-                       <td>---</td>
+                       <td>&nbsp;</td>
                     </tr>
                     <tr>
-                      <td>Auckland</td>
+                      <td className="location">Auckland</td>
+                      </tr>
+                      <tr>
                       <td>SFO</td>
                       <td>12h20m</td>
-                      <td></td>
-                      <td>$241</td>
-                      <td>$109</td>
+                      <td className="price"></td>
+                      <td className="price">$241</td>
+                      <td className="price">$109</td>
                  </tr>
                 </tbody>
             </table>

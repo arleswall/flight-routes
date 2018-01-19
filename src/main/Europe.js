@@ -2,351 +2,366 @@ import React from "react";
 
 function Europe(){
     return(
-        <div>
-            <h3>Europe</h3>
-                  <table>
+        <div className="tableDiv">
+            <h3 className="title">Europe</h3>
+                <table className="tableBox">
                     <tbody>
-                      <tr>
-                        <th>From</th>
-                        <th>To</th> 
-                        <th>Duration</th>
-                        <th>F</th>
-                        <th>C</th> 
-                        <th>Y</th>
-                      </tr>
-                       <tr>
-                         <td>London</td>
-                         <td>EWR</td>
-                         <td>8h30m</td>
-                         <td></td>
-                         <td>$315</td>
-                         <td>$250</td>
-                    </tr>
+                        <tr>
+                          <th>From/To</th> 
+                          <th className="priceHeader"><i className="fa fa-clock-o" aria-hidden="true"></i></th>
+                          <th className="priceHeader">F</th>
+                          <th className="priceHeader">C</th> 
+                          <th className="priceHeader">Y</th>
+                        </tr>
+                        <tr>
+                           <td>&nbsp;</td>
+                        </tr>
+                         <tr>
+                           <td className="location">Dublin</td>
+                        </tr>
+                         <tr>
+                          <td>EWR</td>
+                          <td>7h30m</td>
+                          <td className="price"></td>
+                          <td className="price">$158</td>
+                          <td className="price">$98</td>
+                     </tr>
                      <tr>
-                        <td></td>
-                        <td>IAD</td>
-                        <td>8h45m</td>
-                        <td></td>
-                        <td>$315</td>
-                        <td>$250</td>
-                   </tr>
+                        <td>&nbsp;</td>
+                     </tr>
+                     <tr>
+                         <td className="location">Amsterdam</td>
+                      </tr>
+                      <tr>
+                         <td>EWR</td>
+                         <td>8h40m</td>
+                         <td className="price"></td>
+                         <td className="price">$177</td>
+                         <td className="price">$112</td>
+                    </tr>                   
+                     <tr>
+                         <td>IAD</td>
+                         <td>9h0m</td>
+                         <td className="price"></td>
+                         <td className="price">$177</td>
+                         <td className="price">$112</td>
+                    </tr>                   
+                     <tr>
+                         <td>ORD</td>
+                         <td>9h20m</td>
+                         <td className="price">$209</td>
+                         <td className="price">$179</td>
+                         <td className="price">$112</td>
+                    </tr>                   
+                     <tr>
+                         <td>IAH</td>
+                         <td>10h20m</td>
+                         <td className="price"></td>
+                         <td className="price">$219</td>
+                         <td className="price">$112</td>
+                        </tr> 
+                        <tr>
+                           <td>&nbsp;</td>
+                        </tr>     
+                        <tr>
+                            <td className="location">Madrid</td>
+                         </tr>
+                         <tr>
+                            <td>EWR</td>
+                            <td>9h0m</td>
+                            <td className="price"></td>
+                            <td className="price">$182</td>
+                            <td className="price">$117</td>
+                       </tr>
+                       <tr>
+                          <td>&nbsp;</td>
+                       </tr>
+                       <tr>
+                           <td className="location">Barcelona</td>
+                        </tr>
+                        <tr>
+                           <td>EWR</td>
+                           <td>9h10m</td>
+                           <td className="price"></td>
+                           <td className="price">$177</td>
+                           <td className="price">$112</td>
+                      </tr>                   
+                      <tr>
+                         <td>&nbsp;</td>
+                      </tr>
+
                     <tr>
-                        <td></td>
-                        <td>ORD</td>
-                        <td>9h10m</td>
-                        <td>$342</td>
-                        <td>$315</td>
-                        <td>$250</td>
+                        <td className="location">Lisbon</td>
+                     </tr>
+                     <tr>
+                        <td>EWR</td>
+                        <td>8h35m</td>
+                        <td className="price"></td>
+                        <td className="price">$184</td>
+                        <td className="price">$119</td>
                    </tr>
                    <tr>
-                       <td></td>
-                       <td>IAH</td>
-                       <td>10h40m</td>
-                       <td></td>
-                       <td>$317</td>
-                       <td>$250</td>
-                  </tr>
-                  <tr>
-                      <td></td>
-                      <td>SFO</td>
-                      <td>11h05m</td>
-                      <td>$397</td>
-                      <td>$357</td>
-                      <td>$250</td>
-                 </tr>
-                 <tr>
-                       <td></td>
-                       <td>LAX</td>
-                       <td>11h15m</td>
-                       <td> </td>
-                       <td>$357</td>
-                       <td>$250</td>
-                 </tr>
-                 <tr>
-                    <td>---</td>
-                 </tr>
-                 <tr>
-                     <td>Dublin</td>
-                     <td>EWR</td>
-                     <td>7h30m</td>
-                     <td></td>
-                     <td>$158</td>
-                     <td>$98</td>
-                </tr>
-                <tr>
-                   <td>---</td>
-                </tr>
-                <tr>
-                    <td>Lisbon</td>
-                    <td>EWR</td>
-                    <td>8h35m</td>
-                    <td></td>
-                    <td>$184</td>
-                    <td>$119</td>
-               </tr>
-               <tr>
-                  <td>---</td>
-               </tr>
-               <tr>
-                   <td>Madrid</td>
-                   <td>EWR</td>
-                   <td>9h0m</td>
-                   <td></td>
-                   <td>$182</td>
-                   <td>$117</td>
-              </tr>
-              <tr>
-                 <td>---</td>
-              </tr>
-              <tr>
-                  <td>Barcelona</td>
-                  <td>EWR</td>
-                  <td>9h10m</td>
-                  <td></td>
-                  <td>$177</td>
-                  <td>$112</td>
-             </tr>                   
-             <tr>
-                <td>---</td>
-             </tr>
-              <tr>
-                  <td>Paris</td>
-                  <td>IAD</td>
-                  <td>8h45m</td>
-                  <td></td>
-                  <td>$265</td>
-                  <td>$150</td>
-             </tr>                   
-              <tr>
-                  <td></td>
-                  <td>EWR</td>
-                  <td>9h0m</td>
-                  <td></td>
-                  <td>$265</td>
-                  <td>$150</td>
-             </tr>                   
-              <tr>
-                  <td></td>
-                  <td>ORD</td>
-                  <td>9h30m</td>
-                  <td>$297</td>
-                  <td>$267</td>
-                  <td>$150</td>
-              </tr>                   
-              <tr>
-                  <td></td>
-                  <td>SFO</td>
-                  <td>11h20m</td>
-                  <td></td>
-                  <td>$307</td>
-                  <td>$150</td>
-              </tr>
-              <tr>
-                    <td>---</td>
-              </tr>  
-              <tr>
-                  <td>Brussels</td>
-                  <td>IAD</td>
-                  <td>8h45m</td>
-                  <td>$211</td>
-                  <td>$184</td>
-                  <td>$119</td>
-             </tr>                   
-              <tr>
-                  <td></td>
-                  <td>EWR</td>
-                  <td>9h0m</td>
-                  <td></td>
-                  <td>$184</td>
-                  <td>$119</td>
-             </tr>                   
-              <tr>
-                  <td></td>
-                  <td>ORD</td>
-                  <td>9h25m</td>
-                  <td>$216</td>
-                  <td>$186</td>
-                  <td>$119</td>
-             </tr> 
-             <tr>
-                <td>---</td>
-             </tr>               
-              <tr>
-                  <td>Amsterdam</td>
-                  <td>EWR</td>
-                  <td>8h40m</td>
-                  <td></td>
-                  <td>$177</td>
-                  <td>$112</td>
-             </tr>                   
-              <tr>
-                  <td></td>
-                  <td>IAD</td>
-                  <td>9h0m</td>
-                  <td></td>
-                  <td>$177</td>
-                  <td>$112</td>
-             </tr>                   
-              <tr>
-                  <td></td>
-                  <td>ORD</td>
-                  <td>9h20m</td>
-                  <td>$209</td>
-                  <td>$179</td>
-                  <td>$112</td>
-             </tr>                   
-              <tr>
-                  <td></td>
-                  <td>IAH</td>
-                  <td>10h20m</td>
-                  <td></td>
-                  <td>$219</td>
-                  <td>$112</td>
-                 </tr> 
-                 <tr>
-                    <td>---</td>
-                 </tr>              
-                  <tr>
-                      <td>Frankfurt</td>
-                      <td>IAD</td>
-                      <td>9h15m</td>
-                      <td>$280</td>
-                      <td>$253</td>
-                      <td>$188</td>
-                 </tr>
-                 <tr>
-                     <td></td>
-                     <td>EWR</td>
-                     <td>9h30m</td>
-                     <td></td>
-                     <td>$253</td>
-                     <td>$188</td>
-                 </tr>                   
-                 <tr>
-                     <td></td>
-                     <td>ORD</td>
-                     <td>9h35m</td>
-                     <td>$285</td>
-                     <td>$255</td>
-                     <td>$188</td>
-                 </tr>                   
-                 <tr>
-                     <td></td>
-                     <td>IAH</td>
-                     <td>11h20m</td>
-                     <td></td>
-                     <td>$295</td>
-                     <td>$188</td>
-                 </tr>                   
-                 <tr>
-                     <td></td>
-                     <td>SFO</td>
-                     <td>11h40m</td>
-                     <td></td>
-                     <td>$295</td>
-                     <td>$188</td>
-                 </tr>
-                 <tr>
-                    <td>---</td>
-                 </tr>               
-                 <tr>
-                     <td>Munich</td>
-                     <td>IAD</td>
-                     <td>9h25m</td>
-                     <td>$270</td>
-                     <td>$240</td>
-                     <td>$173</td>
-                 </tr>                   
-                 <tr>
-                     <td></td>
-                     <td>EWR</td>
-                     <td>9h30m</td>
-                     <td></td>
-                     <td>$238</td>
-                     <td>$173</td>
-                 </tr>                   
-                 <tr>
-                     <td></td>
-                     <td>ORD</td>
-                     <td>9h50m</td>
-                     <td>$270</td>
-                     <td>$240</td>
-                     <td>$173</td>
-                  </tr>
-                  <tr>
-                    <td>---</td>
-                  </tr>               
+                      <td>&nbsp;</td>
+                   </tr>
                    <tr>
-                       <td>Edinburgh</td>
-                       <td>EWR</td>
-                       <td>7h55m</td>
-                       <td></td>
-                       <td>$275</td>
-                       <td>$210</td>
-                   </tr> 
-                  <tr>
-                    <td>---</td>
-                  </tr>               
-                   <tr>
-                       <td>Zurich</td>
+                       <td className="location">Zurich</td>
+                    </tr>
+                    <tr>
                        <td>EWR</td>
                        <td>9h25m</td>
-                       <td></td>
-                       <td>$186</td>
-                       <td>$121</td>
+                       <td className="price"></td>
+                       <td className="price">$186</td>
+                       <td className="price">$121</td>
                    </tr> 
                    <tr>
-                       <td></td>
                        <td>IAD</td>
                        <td>9h40m</td>
-                       <td></td>
-                       <td>$188</td>
-                       <td>$121</td>
+                       <td className="price"></td>
+                       <td className="price">$188</td>
+                       <td className="price">$121</td>
                    </tr>
                    <tr>
-                     <td>---</td>
+                     <td>&nbsp;</td>
                    </tr>               
                     <tr>
-                        <td>Geneza</td>
+                        <td className="location">Geneva</td>
+                     </tr>
+                     <tr>
                         <td>EWR</td>
                         <td>9h20m</td>
-                        <td></td>
-                        <td>$177</td>
-                        <td>$112</td>
+                        <td className="price"></td>
+                        <td className="price">$177</td>
+                        <td className="price">$112</td>
                     </tr> 
                    <tr>
-                     <td>---</td>
-                   </tr>               
-                    <tr>
-                        <td>Milan</td>
-                        <td>EWR</td>
-                        <td>9h50m</td>
-                        <td></td>
-                        <td>$185</td>
-                        <td>$120</td>
-                    </tr> 
+                     <td>&nbsp;</td>
+                   </tr>
                    <tr>
-                     <td>---</td>
-                   </tr>               
+                       <td className="location">Brussels</td>
+                    </tr>
                     <tr>
-                        <td>Rome</td>
-                        <td>EWR</td>
-                        <td>10h05m</td>
-                        <td></td>
-                        <td>$204</td>
-                        <td>$137</td>
-                    </tr> 
+                       <td>IAD</td>
+                       <td>8h45m</td>
+                       <td className="price">$211</td>
+                       <td className="price">$184</td>
+                       <td className="price">$119</td>
+                  </tr>                   
                    <tr>
-                     <td>---</td>
-                   </tr>               
+                       <td>EWR</td>
+                       <td>9h0m</td>
+                       <td className="price"></td>
+                       <td className="price">$184</td>
+                       <td className="price">$119</td>
+                  </tr>                   
+                   <tr>
+                       <td>ORD</td>
+                       <td>9h25m</td>
+                       <td className="price">$216</td>
+                       <td className="price">$186</td>
+                       <td className="price">$119</td>
+                  </tr> 
+                  <tr>
+                     <td>&nbsp;</td>
+                  </tr>
+                  <tr>
+                      <td className="location">Milan</td>
+                   </tr>
+                   <tr>
+                      <td>EWR</td>
+                      <td>9h50m</td>
+                      <td className="price"></td>
+                      <td className="price">$185</td>
+                      <td className="price">$120</td>
+                  </tr> 
+                 <tr>
+                   <td>&nbsp;</td>
+                 </tr>               
+                  <tr>
+                      <td className="location">Rome</td>
+                   </tr>
+                   <tr>
+                      <td>EWR</td>
+                      <td>10h05m</td>
+                      <td className="price"></td>
+                      <td className="price">$204</td>
+                      <td className="price">$137</td>
+                  </tr> 
+                 <tr>
+                   <td>&nbsp;</td>
+                 </tr>                     
+                  <tr>
+                      <td className="location">Paris</td>
+                   </tr>
+                   <tr>
+                      <td>IAD</td>
+                      <td>8h45m</td>
+                      <td className="price"></td>
+                      <td className="price">$265</td>
+                      <td className="price">$150</td>
+                 </tr>                   
+                  <tr>
+                      <td>EWR</td>
+                      <td>9h0m</td>
+                      <td className="price"></td>
+                      <td className="price">$265</td>
+                      <td className="price">$150</td>
+                 </tr>                   
+                      <tr>
+                      <td>ORD</td>
+                      <td>9h30m</td>
+                      <td className="price">$297</td>
+                      <td className="price">$267</td>
+                      <td className="price">$150</td>
+                  </tr>                   
+                  <tr>
+                      <td>SFO</td>
+                      <td>11h20m</td>
+                      <td className="price"></td>
+                      <td className="price">$307</td>
+                      <td className="price">$150</td>
+                  </tr>
+                  <tr>
+                        <td>&nbsp;</td>
+                  </tr>  
+                   <tr>
+                      <td className="location">Frankfurt</td>
+                   </tr>
+                   <tr>
+                      <td>IAD</td>
+                      <td>9h15m</td>
+                      <td className="price">$280</td>
+                      <td className="price">$253</td>
+                      <td className="price">$188</td>
+                 </tr>
+                 <tr>
+                     <td>EWR</td>
+                     <td>9h30m</td>
+                     <td className="price"></td>
+                     <td className="price">$253</td>
+                     <td className="price">$188</td>
+                 </tr>                   
+                 <tr>
+                     <td>ORD</td>
+                     <td>9h35m</td>
+                     <td className="price">$285</td>
+                     <td className="price">$255</td>
+                     <td className="price">$188</td>
+                 </tr>                   
+                 <tr>
+                     <td>IAH</td>
+                     <td>11h20m</td>
+                     <td className="price"></td>
+                     <td className="price">$295</td>
+                     <td className="price">$188</td>
+                 </tr>                   
+                 <tr>
+                     <td>SFO</td>
+                     <td>11h40m</td>
+                     <td className="price"></td>
+                     <td className="price">$295</td>
+                     <td className="price">$188</td>
+                 </tr>
+                 <tr>
+                    <td>&nbsp;</td>
+                 </tr>               
+                 <tr>
+                     <td className="location">Munich</td>
+                  </tr>
+                  <tr>
+                     <td>IAD</td>
+                     <td>9h25m</td>
+                     <td className="price">$270</td>
+                     <td className="price">$240</td>
+                     <td className="price">$173</td>
+                 </tr>                   
+                 <tr>
+                     <td>EWR</td>
+                     <td>9h30m</td>
+                     <td className="price"></td>
+                     <td className="price">$238</td>
+                     <td className="price">$173</td>
+                 </tr>                   
+                 <tr>
+                     <td>ORD</td>
+                     <td>9h50m</td>
+                     <td className="price">$270</td>
+                     <td className="price">$240</td>
+                     <td className="price">$173</td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                  </tr>               
+                   <tr>
+                       <td className="location">Edinburgh</td>
+                    </tr>
                     <tr>
-                        <td>Manchester</td>
+                       <td>EWR</td>
+                       <td>7h55m</td>
+                       <td className="price"></td>
+                       <td className="price">$275</td>
+                       <td className="price">$210</td>
+                   </tr> 
+                  <tr>
+                    <td>&nbsp;</td>
+                  </tr>                      
+                    <tr>
+                        <td className="location">Manchester</td>
+                     </tr>
+                     <tr>
                         <td>EWR</td>
                         <td>8h20m</td>
-                        <td></td>
-                        <td>$272</td>
-                        <td>$207</td>
-                    </tr> 
+                        <td className="price"></td>
+                        <td className="price">$272</td>
+                        <td className="price">$207</td>
+                    </tr>
+                    <tr>
+                       <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td className="location">London</td>
+                   </tr>
+                   <tr>
+                      <td>EWR</td>
+                      <td>8h30m</td>
+                      <td className="price"></td>
+                      <td className="price">$315</td>
+                      <td className="price">$250</td>
+                     </tr>
+                      <tr>
+                         <td>IAD</td>
+                         <td>8h45m</td>
+                         <td className="price"></td>
+                         <td className="price">$315</td>
+                         <td className="price">$250</td>
+                    </tr>
+                     <tr>
+                         <td>ORD</td>
+                         <td>9h10m</td>
+                         <td className="price">$342</td>
+                         <td className="price">$315</td>
+                         <td className="price">$250</td>
+                    </tr>
+                    <tr>
+                        <td>IAH</td>
+                        <td>10h40m</td>
+                        <td className="price"></td>
+                        <td className="price">$317</td>
+                        <td className="price">$250</td>
+                   </tr>
+                   <tr>
+                       <td>SFO</td>
+                       <td>11h05m</td>
+                       <td className="price">$397</td>
+                       <td className="price">$357</td>
+                       <td className="price">$250</td>
+                  </tr>
+                  <tr>
+                        <td>LAX</td>
+                        <td>11h15m</td>
+                        <td className="price"> </td>
+                        <td className="price">$357</td>
+                        <td className="price">$250</td>
+                  </tr> 
                </tbody>                   
             </table>
         </div>

@@ -7,7 +7,7 @@ import Australia from "./Australia";
 class App extends React.Component{
     render(){
         return(
-            <div>
+            <div className="app-wrapper">
                 <Switch>
                     <Route exact path="/" component={Home}/>
                     <Route path="/europe" component={Europe}/>
