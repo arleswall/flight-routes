@@ -1,0 +1,45 @@
+[
+
+	{
+		"from": "Sydney",
+		"destinations": [{
+				"airport": "SFO",
+				"duration": "13h35m",
+				"C": 310,
+				"Y": 158
+			},
+			{
+				"airport": "LAX",
+				"duration": "13h50m",
+				"C": 310,
+				"Y": 158
+
+			},
+			{
+				"airport": "IAH",
+				"duration": "15h40m",
+				"C": 310,
+				"Y": 158
+
+			}
+		]
+	},
+	{
+		"from": "Melbourne",
+		"destinations": [{
+			"airport": "LAX",
+			"duration": "14h15m",
+			"C": 284,
+			"Y": 152
+		}]
+	},
+	{
+		"from": "Auckland",
+		"destinations": [{
+			"airport": "SFO",
+			"duration": "12h20m",
+			"C": 241,
+			"Y": 109
+		}]
+	}
+]
