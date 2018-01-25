@@ -1,0 +1,298 @@
+[
+
+	{
+		"from": "Dublin",
+		"destinations": [{
+				"airport": "EWR",
+				"duration": "7h30m",
+				"C": 158,
+				"Y": 98
+			}]
+	},
+	{
+		"from": "Amsterdam",
+		"destinations": [{
+			"airport": "EWR",
+			"duration": "8h40m",
+			"C": 177,
+			"Y": 112
+		},
+        {
+            "airport": "IAD",
+            "duration": "9h00m",
+            "C": 177,
+            "Y": 112
+
+        },
+        {
+            "airport": "ORD",
+            "duration": "9h20m",
+            "F": 209,
+            "C": 179,
+            "Y": 112
+
+        },
+        {
+            "airport": "IAH",
+            "duration": "10h20m",
+            "C": 219,
+            "Y": 112
+
+        }
+    ]
+},
+	{
+		"from": "Madrid",
+		"destinations": [{
+			"airport": "EWR",
+			"duration": "9h00m",
+			"C": 182,
+			"Y": 117
+		}]
+	},
+    {
+		"from": "Barcelona",
+		"destinations": [{
+			"airport": "EWR",
+			"duration": "9h10m",
+			"C": 177,
+			"Y": 112
+		}]
+	},
+    {
+		"from": "Lisbon",
+		"destinations": [{
+			"airport": "EWR",
+			"duration": "8h35m",
+			"C": 184,
+			"Y": 119
+		}]
+	},
+    {
+		"from": "Zurich",
+		"destinations": [{
+			"airport": "EWR",
+			"duration": "9h25m",
+			"C": 186,
+			"Y": 121
+		},
+        {
+            "airport": "IAD",
+            "duration": "9h40m",
+            "C": 188,
+            "Y": 121
+
+        }]
+	},
+    {
+		"from": "Geneva",
+		"destinations": [{
+			"airport": "EWR",
+			"duration": "9h20m",
+			"C": 177,
+			"Y": 112
+		}]
+	},
+    {
+		"from": "Brussels",
+		"destinations": [{
+			"airport": "IAD",
+			"duration": "8h45m",
+            "F": 211,
+			"C": 184,
+			"Y": 119
+		},
+        {
+            "airport": "EWR",
+            "duration": "9h00m",
+            "C": 184,
+            "Y": 119
+
+        },
+        {
+            "airport": "ORD",
+            "duration": "9h25m",
+            "F": 216,
+            "C": 186,
+            "Y": 119
+
+        }]
+	},
+    {
+		"from": "Milan",
+		"destinations": [{
+			"airport": "EWR",
+			"duration": "9h50m",
+			"C": 185,
+			"Y": 120
+		}]
+	},
+    {
+		"from": "Rome",
+		"destinations": [{
+			"airport": "EWR",
+			"duration": "10h05m",
+			"C": 204,
+			"Y": 137
+		}]
+	},
+    {
+		"from": "Paris",
+		"destinations": [{
+			"airport": "IAD",
+			"duration": "8h45m",
+			"C": 265,
+			"Y": 150
+		},
+        {
+            "airport": "EWR",
+            "duration": "9h00m",
+            "C": 265,
+            "Y": 150
+
+        },
+        {
+            "airport": "ORD",
+            "duration": "9h25m",
+            "F": 297,
+            "C": 267,
+            "Y": 150
+
+        },
+        {
+            "airport": "SFO",
+            "duration": "11h20m",
+            "C": 307,
+            "Y": 150
+
+        }]
+	},
+    {
+		"from": "Frankfurt",
+		"destinations": [{
+			"airport": "IAD",
+			"duration": "9h15m",
+            "F": 280,
+			"C": 253,
+			"Y": 188
+		},
+        {
+            "airport": "EWR",
+            "duration": "9h30m",
+            "C": 253,
+            "Y": 188
+
+        },
+        {
+            "airport": "ORD",
+            "duration": "9h35m",
+            "F": 285,
+            "C": 255,
+            "Y": 188
+
+        },
+        {
+            "airport": "IAH",
+            "duration": "11h20m",
+            "C": 295,
+            "Y": 188
+
+        },
+        {
+            "airport": "SFO",
+            "duration": "11h40m",
+            "C": 295,
+            "Y": 188
+
+        }]
+	},
+    {
+		"from": "Munich",
+		"destinations": [{
+			"airport": "IAD",
+			"duration": "9h25m",
+            "F": 270,
+			"C": 240,
+			"Y": 173
+		},
+        {
+            "airport": "EWR",
+            "duration": "9h30m",
+            "C": 238,
+            "Y": 173
+
+        },
+        {
+            "airport": "ORD",
+            "duration": "9h50m",
+            "F": 270,
+            "C": 240,
+            "Y": 173
+
+        }]
+	},
+    {
+		"from": "Edinburgh",
+		"destinations": [{
+			"airport": "EWR",
+			"duration": "7h55m",
+			"C": 275,
+			"Y": 210
+		}]
+	},
+    {
+		"from": "Manchester",
+		"destinations": [{
+			"airport": "EWR",
+			"duration": "8h20m",
+			"C": 272,
+			"Y": 207
+		}]
+	},
+    {
+		"from": "London",
+		"destinations": [{
+			"airport": "EWR",
+			"duration": "8h30m",
+			"C": 315,
+			"Y": 250
+		},
+        {
+            "airport": "IAD",
+            "duration": "8h45m",
+            "C": 315,
+            "Y": 250
+
+        },
+        {
+            "airport": "ORD",
+            "duration": "9h10m",
+            "F": 342,
+            "C": 315,
+            "Y": 250
+
+        },
+        {
+            "airport": "IAH",
+            "duration": "10h40m",
+            "C": 317,
+            "Y": 250
+
+        },
+        {
+            "airport": "SFO",
+            "duration": "11h05m",
+            "F": 397,
+            "C": 357,
+            "Y": 250
+
+        },
+        {
+            "airport": "LAX",
+            "duration": "11h15m",
+            "C": 357,
+            "Y": 250
+
+        }]
+	}
+]
